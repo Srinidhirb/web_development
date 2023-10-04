@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #656161;
+		}
+		h1 {
+			
+			text-align: center;
+			margin-top: 50px;
+			padding-left: 240px;
+			color: rgb(227, 199, 14);
+
+		}
+		h2{
+			text-align: center;
+		}
+		form {
+			width: 300px;
+			margin: 0 auto;
+			background-color: #fff;
+			padding: 100px;
+			border-radius: 5px;
+			box-shadow: 0 0 10px #ccc;
+		}
+		label {
+			display: block;
+			margin-bottom: 1px;
+			font-weight: bold;
+		}
+		input[type="text"],
+		input[type="password"] {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border-radius: 5px;
+			border: none;
+			box-shadow: 0 0 5px #ccc;
+			
+		}
+		input[type="submit"] {
+			background-color: #008CBA;
+			color: #fff;
+			padding: 10px;
+			
+			border-radius: 50px;
+			border: none;
+			cursor: pointer;
+			margin-left: 130px;
+		}
+		div{
+			background-color: #008CBA;
+		}
+		.hii{
+			padding-left: 250px;
+		}
+
+	</style>
+</head>
+<body>
+	<div style="display: flex;">
+		<div style="flex: 20%;"  > <img src="https://i.pinimg.com/originals/d4/60/bd/d460bda224edb94719cf11f2fdc3fa01.png" alt="not found" style="width:165px;height: 135px;"></div>
+	    <div style="flex: 70%; " > <h1  > SD BANK  </h1></div>
+		<div style="flex:10%;" class="hii"> <img src="https://static.vecteezy.com/system/resources/previews/012/224/971/original/bags-of-money-symbol-of-wealth-success-png.png"  alt="not found" style="width:125px;height:135px;" > </div>
+	
+    </div>
+	<h2> LOGIN </h2>
+	<form action="login.php" method="POST">
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username" required>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+		<input type="submit" value="Log In">
+	</form>
+	
+</body>
+</html>
